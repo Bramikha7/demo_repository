@@ -1,0 +1,104 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+  color: white;
+}
+header {
+  background: #3797f1;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+header h1 {
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #357ab8;
+  padding: 10px 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+.company_name {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.logo_img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+}
+.freeenroll {
+  position: relative;
+  color: black;
+  place-items: center;
+  border: 2px solid white;
+  height: 400px;
+  width: 350px;
+  margin: auto;
+  border-radius: 6px;
+  font-size: x-large;
+  padding: 20px;
+  background-color: white;
+  margin-top: 40px;
+  box-shadow: 0 10px 15px black;
+}
+.free {
+  position: absolute;
+  top: 0px;
+  z-index: 0;
+  right: 20px;
+  border: 1px solid black;
+  height: 30px;
+  width: 70px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  background-color: #3797f1;
+  color: white;
+}
+.enroll {
+  background-color: #3797f1;
+  font-size: large;
+  color: white;
+  width: 200px;
+  place-items: center;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  border-radius: 6px;
+}
+.enroll:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px black;
+}
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}

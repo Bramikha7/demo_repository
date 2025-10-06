@@ -1,0 +1,77 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+header {
+  background: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #357ab8;
+  padding: 10px 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+.company_name {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.logo_img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+}
+.enroll {
+  margin: auto;
+  color: black;
+  place-items: center;
+  border: 1px solid black;
+  height: 100px;
+  width: 500px;
+  background-color:#4a90e2 ;
+  border-radius: 6px;
+  display: grid;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  box-shadow: 0 5px 10px black;
+}
+a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
